@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurace Sauna Asia</title>
+    <link rel="stylesheet" href="kontakt.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+        </style>
+</head>
+<body>
+        <!-- Header section  -->
+        <section id="header">
+            <div class="container">
+                <nav>
+                    <ul class="nav-links">
+                        <li><a href="index.html">Domů</a></li>
+                        <li><a href="Menu.pdf" target="_blank">Menu</a></li>
+                        <li><a href="sauna.html">Sauna</a></li>
+                        <li><a href="kontakt.html">Kontakt</a></li>
+                    </ul>
+                    <div class="menu-btn"><img src="menu.svg" alt=""></div>
+                </nav>
+                <h1>Kontakt</h1>
+            </div>
+        </section>
+
+        <!-- Info section -->
+         <section id="info">
+            <div class="info-container">
+                <h3>+420 608 099 881</h3>
+                <h3>Tyršova 287</h3>
+                <p>Bělá pod Bezdězem</p>
+                <img src="img/image_123650291.JPG" alt="" height="350px">
+                <h3>Otevírací doba</h3>
+                <h3><Strong>PO - SO</Strong></h3>
+                <h3>10:00 - 22:00</h3>
+            </div>
+         </section>
+
+         <!-- Footer section  -->
+          <footer>
+            <div class="container">
+                <ul class="nav-links">
+                    <li><a href="index.html">Domů</a></li>
+                    <li><a href="Menu.pdf" target="_blank">Menu</a></li>
+                    <li><a href="sauna.html">Sauna</a></li>
+                    <li><a href="kontakt.html">Kontakt</a></li>
+                </ul>
+                <br>
+                <p>© 2025 Restaurace Sauna Asia</p>
+            </div>
+          </footer>
+
+          <script>
+            const menuBtn = document.querySelector('.menu-btn');
+            const navLinks = document.querySelector ('.nav-links')
+    
+            menuBtn.addEventListener('click', function(){
+                navLinks.classList.toggle("active")
+            })
+        </script>
+</body>
+</html>

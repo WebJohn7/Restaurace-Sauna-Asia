@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurace Sauna Asia</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+        </style>
+</head>
+<body>
+    <!-- Header section  -->
+    <section id="header">
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Domů</a></li>
+                <li><a href="Menu.pdf" target="_blank">Menu</a></li>
+                <li><a href="sauna.html">Sauna</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+            <div class="menu-btn"><img src="menu.svg" alt=""></div>
+        </nav>
+        <div class="container">
+            <div class="header-content">
+                <h1>Resturace Sauna Asia</h1>
+                <p>Jsme asijská restaurace a hospoda v jednom. Nabízíme široký výběr jídel inspirovaných asijskou kuchyní. Součástí podniku je také hospoda s nabídkou točeného piva, nealko nápojů a drobného občerstvení</p>
+            </div>
+        </div>
+        <footer>
+            <p>© 2025 Restaurace Sauna Asia</p>
+        </footer>
+    </section>
+
+    <script>
+        const menuBtn = document.querySelector('.menu-btn');
+        const navLinks = document.querySelector ('.nav-links')
+
+        menuBtn.addEventListener('click', function(){
+            navLinks.classList.toggle("active")
+        })
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurace Sauna Asia</title>
+    <link rel="stylesheet" href="sauna.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+        </style>
+</head>
+<body>
+    <section id="header">
+        <div class="container">
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Domů</a></li>
+                    <li><a href="Menu.pdf" target="_blank">Menu</a></li>
+                    <li><a href="sauna.html">Sauna</a></li>
+                    <li><a href="kontakt.html">Kontakt</a></li>
+                </ul>
+                <div class="menu-btn"><img src="img/menu.svg" alt=""></div>
+            </nav>
+            <h1>Sauna</h1>
+        </div>
+    </section>
+
+            <!-- Info section -->
+            <section id="info">
+                <div class="info-container">
+                    <h3><strong>Provozní doba</strong></h3>
+                    <p>Pouze v zimním období</p>
+                    <h3>St: muži 17:00 - 20:00</h3>
+                    <h3>Čt: ženy 17:00 - 20:00</h3>
+                    <h3>Pá: muži 17:00 - 20:00</h3>
+                    <h3>So: ženy 16:00 - 18:00</h3>
+                    <h3>So: muži 18:00 - 20:00</h3>
+                </div>
+                <div class="gallery">
+                    <img src="img/sauna 1.jpg" alt="">
+                    <img src="img/sauna 2.jpg" alt="" >
+                    <img src="img/sauna 3.jpg" alt="" >
+                    <img src="img/sauna 4.jpg" alt="" >
+                </div>
+             </section>
+    
+             <!-- Footer section  -->
+              <footer>
+                <div class="container">
+                    <ul class="nav-links">
+                        <li><a href="index.html">Domů</a></li>
+                        <li><a href="Menu.pdf" target="_blank">Menu</a></li>
+                        <li><a href="sauna.html">Sauna</a></li>
+                        <li><a href="kontakt.html">Kontakt</a></li>
+                    </ul>
+                    <br>
+                    <p>© 2025 Restaurace Sauna Asia</p>
+                </div>
+              </footer>
+
+              <script>
+                const menuBtn = document.querySelector('.menu-btn');
+                const navLinks = document.querySelector ('.nav-links')
+        
+                menuBtn.addEventListener('click', function(){
+                    navLinks.classList.toggle("active")
+                })
+            </script>
+</body>
+</html>
